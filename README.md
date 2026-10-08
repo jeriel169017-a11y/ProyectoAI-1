@@ -6,11 +6,11 @@
 
 ## Integrantes
 
-| Nombre | Carné | Correo |
-|---|---|---|
-| | | |
-| | | |
-| | | |
+| Nombre                 | Carné     | Correo           |
+|------------------------|-----------|------------------|
+| Jeriel Fonseca Ramirez | 305720243 | 305720243@cuc.cr |
+|                        |           |                  |
+|                        |           |                  |
 
 ## Descripción del problema
 
