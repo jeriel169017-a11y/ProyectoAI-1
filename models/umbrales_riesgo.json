@@ -1,0 +1,13 @@
+{
+  "umbrales": {
+    "medio": 0.1,
+    "alto": 0.3,
+    "critico": 0.6
+  },
+  "niveles": [
+    "Bajo",
+    "Medio",
+    "Alto",
+    "Cr\u00edtico"
+  ]
+}
