@@ -150,3 +150,24 @@ _Completar._
 ## Conclusiones y recomendaciones
 
 _Completar._
+## Como usar la API
+1. Para encender, en la terminal usar: uvicorn api.main:app
+2. Pegamos la direccion en el navegador una vez la API este prendida: http://127.0.0.1:8000/docs
+3. Para provocar un error cambiamos mes a mes por : "Weekly"
+4. Para apagar la API, control C en la terminsl 
+5. Cliente de riesgo: {
+  "gender": "Female", "SeniorCitizen": 0, "Partner": "Yes", "Dependents": "No",
+  "PhoneService": "Yes", "MultipleLines": "No", "InternetService": "Fiber optic",
+  "OnlineSecurity": "No", "OnlineBackup": "No", "DeviceProtection": "No",
+  "TechSupport": "No", "StreamingTV": "Yes", "StreamingMovies": "Yes",
+  "tenure": 5, "Contract": "Month-to-month", "PaperlessBilling": "Yes",
+  "PaymentMethod": "Electronic check", "MonthlyCharges": 85.5, "TotalCharges": 420.0
+}
+6. Cliente de riesgo bajo: {
+  "gender": "Male", "SeniorCitizen": 0, "Partner": "Yes", "Dependents": "Yes",
+  "PhoneService": "Yes", "MultipleLines": "Yes", "InternetService": "DSL",
+  "OnlineSecurity": "Yes", "OnlineBackup": "Yes", "DeviceProtection": "Yes",
+  "TechSupport": "Yes", "StreamingTV": "No", "StreamingMovies": "No",
+  "tenure": 60, "Contract": "Two year", "PaperlessBilling": "No",
+  "PaymentMethod": "Credit card (automatic)", "MonthlyCharges": 65.0, "TotalCharges": 3900.0
+}
